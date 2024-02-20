@@ -24,8 +24,6 @@ public class BrzinaTipkanja extends JFrame {
             "Java is an object-oriented programming language, emphasizing modularity and reusability.",
             "Java continues to evolve with regular updates and improvements, maintaining its relevance in the software industry."
     };
-
-
     private String originalText;
     private int upisaniChar = 0;
     private long start;
@@ -80,14 +78,10 @@ public class BrzinaTipkanja extends JFrame {
                     vrijemeLabel.setHorizontalAlignment(SwingConstants.CENTER);
                 }
             }
-
             @Override
-            public void keyPressed(KeyEvent e) {
-            }
-
+            public void keyPressed(KeyEvent e) {}
             @Override
-            public void keyReleased(KeyEvent e) {
-            }
+            public void keyReleased(KeyEvent e) {}
         });
         add(upisaniTextArea);
 
